@@ -16,7 +16,7 @@ class App < Sinatra::Base
         @member.team = @team
         @member.save
       end
-
+      
       erb :'team'
     end
 
